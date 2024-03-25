@@ -207,10 +207,10 @@ button_frame.place(x=0,y=480)
 
 
 ##################### Insert Button 
-btn_insert=Button(button_frame,text="Add Employee",command=add_employee,font=("verdana",12,"bold"),bg="#1aff1a",fg="black",bd=5,width=13,padx=5,pady=5,activebackground="green",activeforeground="white").grid(row=1,column=0,padx=10,pady=5)
+btn_insert=Button(button_frame,text="Add Employee",command=add_employee,font=("verdana",12,"bold"),bg="#1aff1a",fg="black",bd=5,width=13,padx=20,pady=5,activebackground="green",activeforeground="white").grid(row=1,column=0,padx=10,pady=10)
 
 ##################### Update Button
-btn_update=Button(button_frame,text="Update Employee",command=update_employee,font=("verdana",12,"bold"),bd=5,bg="#3399ff",fg="black",width=13,padx=10,pady=5,activebackground="blue",activeforeground="white").grid(row=1,column=1,padx=10,pady=5)
+btn_update=Button(button_frame,text="Update Employee",command=update_employee,font=("verdana",12,"bold"),bd=5,bg="#3399ff",fg="black",width=13,padx=20,pady=5,activebackground="blue",activeforeground="white").grid(row=1,column=1,padx=10,pady=10)
 
 ##################### Delete Button
 btn_delete=Button(button_frame,text="Delete Employee",command=delete_employee,font=("verdana",12,"bold"),bd=5,bg="#ff4d4d",fg="black",width=13,padx=20,pady=5,activebackground="red",activeforeground="white").grid(row=2,column=0,padx=10,pady=10)
